@@ -1,0 +1,32 @@
+﻿<Page
+ x:Class="DrawingApp.MainPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:local="using:DrawingApp"
+ xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ mc:Ignorable="d">
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas x:Name="_canvas" Margin="99,170,99,99" Background="White"/>
+        <AppBarButton x:Name="CircleAppBarButton" HorizontalAlignment="Left" Icon="Account" Label="Circle" Margin="0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="SaveToGoogleAppBarButton" HorizontalAlignment="Left" Label="SaveToGoogle" Margin="300,0,0,0" VerticalAlignment="Top" Icon="Save"/>
+        <AppBarButton x:Name="ClearAppBarButton" HorizontalAlignment="Left" Icon="Clear" Label="Clear Canvas" Margin="400,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="DownloadAppBarButton" HorizontalAlignment="Left" Icon="Download" Label="Download" Margin="500,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="LoadAppBarButton" HorizontalAlignment="Left" Icon="Refresh" Label="LoadFile" Margin="600,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="RectangleAppBarButton" HorizontalAlignment="Left" Icon="Stop" Label="Rectangle" Margin="100,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="SmileAppBarButton" HorizontalAlignment="Left" Icon="Emoji2" Label="Smile" Margin="200,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="UndoAppBarButton" HorizontalAlignment="Left" Icon="Undo" Label="Undo" Margin="700,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="RedoAppBarButton" HorizontalAlignment="Left" Icon="Redo" Label="Redo" Margin="800,0,0,0" VerticalAlignment="Top"/>
+        <AppBarButton x:Name="DeleteAppBarButton" HorizontalAlignment="Left" Icon="Clear" Label="Delete" Margin="900,0,0,0" VerticalAlignment="Top"/>
+        <StackPanel Margin="0,75,25,0" Height="108" VerticalAlignment="Top" HorizontalAlignment="Right" Width="519">
+            <TextBlock Text="Shape Color" HorizontalAlignment="Left" Width="59" RenderTransformOrigin="0.034,4.143" Height="14" Margin="2,46,0,0" />
+            <TextBlock Text="R" RenderTransformOrigin="0.034,4.143" Height="14" Margin="38,-14,417,0" Width="6.579999923706" />
+            <TextBlock Text="G" HorizontalAlignment="Left" Width="10" RenderTransformOrigin="0.034,4.143" Height="14" Margin="157,-17,0,0"/>
+            <TextBlock Text="B" HorizontalAlignment="Left" Width="7" RenderTransformOrigin="0.034,4.143" Height="14" Margin="246,-15,0,0" />
+            <TextBox x:Name="_red" TextWrapping="Wrap" Text="0" Margin="50,-27,339,0" Width="64" Height="32"/>
+            <TextBox x:Name="_green" TextWrapping="Wrap" Text="0" Margin="128,-32,238,0" Width="64" Height="32"/>
+            <TextBox x:Name="_blue" TextWrapping="Wrap" Text="0" Margin="224,-32,157,0" Width="64" Height="32"/>
+            <Button x:Name="_setColorButton" Content="Apply Color" HorizontalAlignment="Left" Height="40" Margin="376,-33,0,0" Width="119" Click="SetColorButtonClick"/>
+            <StackPanel x:Name="_colorBlank" Margin="299,-37,114,8" Background="White" Width="33" Height="29"/>
+        </StackPanel>
+    </Grid>
+</Page>

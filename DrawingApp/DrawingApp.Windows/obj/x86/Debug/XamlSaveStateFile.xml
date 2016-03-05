@@ -1,0 +1,17 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\drawingapp\drawingapp.windows\obj\x86\debug\intermediatexaml\drawingapp.windows.exe" HashGuid="5eae311e-379f-d7ab-9899-337ce8a1d7ec" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\google.apis.auth.1.9.2\lib\netcore45\google.apis.auth.dll" HashGuid="96bbc2fb-5d01-87e6-6150-5e594829507c" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\google.apis.auth.1.9.2\lib\netcore45\google.apis.auth.platformservices.dll" HashGuid="687bb6f2-079b-1d4c-2285-18f08d9ce8c8" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\google.apis.core.1.9.2\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.core.dll" HashGuid="1a23ba12-7947-71ad-0ab1-edd8a6e83f92" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\google.apis.1.9.2\lib\netcore45\google.apis.dll" HashGuid="762ab551-d8df-dd00-4e4f-81cd9fc6cdae" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\google.apis.drive.v2.1.9.2.1940\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.drive.v2.dll" HashGuid="62086d75-7ac7-7f83-0539-f23c1dc493a4" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\google.apis.1.9.2\lib\netcore45\google.apis.platformservices.dll" HashGuid="489a7e88-e723-0902-5f3b-c3019b67bcb2" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="c:\users\asus\desktop\c#\draw anywhere\packages\zlib.portable.signed.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid\zlib.portable.dll" HashGuid="d82003a1-a222-b48a-0b13-6d66e945ee8a" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,18 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="-1056125606">
+    <configuration>
+    </configuration>
+  </project>
+  <sourcecode name="App.xaml.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/01/04 01:45:17.994</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2015/12/08 20:17:50.165</sourceFile>
+      <parser>2016/01/04 01:45:17.994</parser>
+      <KellyPalRules.KellyPalAnalyzer>2016/01/04 01:45:17.994</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
